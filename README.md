@@ -1,12 +1,12 @@
 # 多线程练习：解决一个多线程的bug
 
-小明尝试将一个类[`Counter`](https://github.com/hcsp/fix-synchronzied-bug/blob/master/src/main/com/github/hcsp/multithread/Counter.java)改写为线程安全的，但是测试没有通过。隔壁老王告诉他他的代码有一个bug。
+小明尝试将一个类[`Counter`](https://github.com/hcsp/fix-synchronzied-bug/blob/master/src/main/java/com/github/hcsp/multithread/Counter.java)改写为线程安全的，但是测试没有通过。隔壁老王告诉他他的代码有一个bug。
 
 请思考一下为什么，帮助小明修复这个bug。
 
 -----
 注意！我们只允许你修改以下文件，对其他文件的修改会被拒绝：
-- [src/main/com/github/hcsp/multithread/Counter.java](https://github.com/hcsp/fix-synchronzied-bug/blob/master/src/main/com/github/hcsp/multithread/Counter.java)
+- [src/main/java/com/github/hcsp/multithread/Counter.java](https://github.com/hcsp/fix-synchronzied-bug/blob/master/src/main/java/com/github/hcsp/multithread/Counter.java)
 -----
 
 
