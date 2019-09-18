@@ -18,7 +18,7 @@ public class Counter {
     // 减去一个整数i，并返回减之后的结果
     public int minusAndGet(int i) {
         synchronized (value) {
-            value += i;
+            value -= i;
             return value;
         }
     }
